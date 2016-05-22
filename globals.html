@@ -8,6 +8,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -49,75 +57,92 @@
     </ul>
   </div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals.html','');});
+</script>
+<div id="doc-content">
 <div class="contents">
 <div class="textblock">Here is a list of all file members with links to the files they belong to:</div><ul>
 <li>ENG_SYSTEM_MAX_INCH
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a78bada4e34d118a51fcd72540914d02b">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a78bada4e34d118a51fcd72540914d02b">HC_SR04_lib.h</a>
 </li>
 <li>ENG_SYSTEM_MIN_INCH
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a5a381a60b8f75e817303689f2c4082b4">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a5a381a60b8f75e817303689f2c4082b4">HC_SR04_lib.h</a>
 </li>
 <li>ERROR_VALUE
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a48e49bfe7b106d9356d27403982bcf7c">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a48e49bfe7b106d9356d27403982bcf7c">HC_SR04_lib.h</a>
 </li>
 <li>HC_SR04_OFF
-: <a class="el" href="_h_c___s_r04__lib_8h.html#afa1b1edf6947ca1c4024f4f52db00ee7a4aae3d8cbf8016488bfc27e16e5492c1">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#afa1b1edf6947ca1c4024f4f52db00ee7a4aae3d8cbf8016488bfc27e16e5492c1">HC_SR04_lib.h</a>
 </li>
 <li>HC_SR04_OVER_MAX
-: <a class="el" href="_h_c___s_r04__lib_8h.html#afa1b1edf6947ca1c4024f4f52db00ee7a8b474fcff26ccf982124d8bf5d21ec16">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#afa1b1edf6947ca1c4024f4f52db00ee7a8b474fcff26ccf982124d8bf5d21ec16">HC_SR04_lib.h</a>
 </li>
 <li>HC_SR04_READ_ERR
-: <a class="el" href="_h_c___s_r04__lib_8h.html#afa1b1edf6947ca1c4024f4f52db00ee7a762f09b27a3ab24215f65eda0962d6f3">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#afa1b1edf6947ca1c4024f4f52db00ee7a762f09b27a3ab24215f65eda0962d6f3">HC_SR04_lib.h</a>
 </li>
 <li>HC_SR04_READ_OK
-: <a class="el" href="_h_c___s_r04__lib_8h.html#afa1b1edf6947ca1c4024f4f52db00ee7ae06184c02f3d88443b47c0f903d72895">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#afa1b1edf6947ca1c4024f4f52db00ee7ae06184c02f3d88443b47c0f903d72895">HC_SR04_lib.h</a>
 </li>
 <li>HC_SR04_TIMEOUT_READ
-: <a class="el" href="_h_c___s_r04__lib_8h.html#afa1b1edf6947ca1c4024f4f52db00ee7a75a3c9ac21cf90f3a684c6eb6541d19b">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#afa1b1edf6947ca1c4024f4f52db00ee7a75a3c9ac21cf90f3a684c6eb6541d19b">HC_SR04_lib.h</a>
 </li>
 <li>HC_SR04_UNDER_MIN
-: <a class="el" href="_h_c___s_r04__lib_8h.html#afa1b1edf6947ca1c4024f4f52db00ee7aeeed0a4cc3e0e799aaec2407fd146285">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#afa1b1edf6947ca1c4024f4f52db00ee7aeeed0a4cc3e0e799aaec2407fd146285">HC_SR04_lib.h</a>
 </li>
 <li>HC_STATES_ENUM
-: <a class="el" href="_h_c___s_r04__lib_8h.html#afa1b1edf6947ca1c4024f4f52db00ee7">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#afa1b1edf6947ca1c4024f4f52db00ee7">HC_SR04_lib.h</a>
 </li>
 <li>METRIC_SYSTEM_MAX_CM
-: <a class="el" href="_h_c___s_r04__lib_8h.html#adc2d8b5ec9c0a12ad766980d14b7601e">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#adc2d8b5ec9c0a12ad766980d14b7601e">HC_SR04_lib.h</a>
 </li>
 <li>METRIC_SYSTEM_MIN_CM
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a9d79fd1ca2de446171fc1a134b60d091">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a9d79fd1ca2de446171fc1a134b60d091">HC_SR04_lib.h</a>
 </li>
 <li>System_unit
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a7b521ba18979ed156de76918beca0fbf">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a7b521ba18979ed156de76918beca0fbf">HC_SR04_lib.h</a>
 </li>
 <li>TIMEOUT_ERROR_VALUE
-: <a class="el" href="_h_c___s_r04__lib_8h.html#abcc2c6539db4afdb2ce192440eedbbd1">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#abcc2c6539db4afdb2ce192440eedbbd1">HC_SR04_lib.h</a>
 </li>
 <li>TRIG_OFF_MS
-: <a class="el" href="_h_c___s_r04__lib_8h.html#acec0834dad06570d710ef99072c47044">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#acec0834dad06570d710ef99072c47044">HC_SR04_lib.h</a>
 </li>
 <li>TRIG_ON_MS
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a7128927acf2ed5b1220e41e0354edd41">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a7128927acf2ed5b1220e41e0354edd41">HC_SR04_lib.h</a>
 </li>
 <li>UNITS_ENGLISH
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a7b521ba18979ed156de76918beca0fbfa170b4cf361e4b9940ee0ecd6aef9efe0">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a7b521ba18979ed156de76918beca0fbfa170b4cf361e4b9940ee0ecd6aef9efe0">HC_SR04_lib.h</a>
 </li>
 <li>UNITS_ENGLISH_DIV
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a34bc705a3633c3cef5b745b942fc85d9">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a34bc705a3633c3cef5b745b942fc85d9">HC_SR04_lib.h</a>
 </li>
 <li>UNITS_METRIC
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a7b521ba18979ed156de76918beca0fbfa45c3145a2a8a1505cbdbd04830ca039a">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a7b521ba18979ed156de76918beca0fbfa45c3145a2a8a1505cbdbd04830ca039a">HC_SR04_lib.h</a>
 </li>
 <li>UNITS_METRIC_DIV
-: <a class="el" href="_h_c___s_r04__lib_8h.html#a6f79f320c1852b8313dd20c04988ef28">HC_SR04_lib.h</a>
+: <a class="el" href="a00004.html#a6f79f320c1852b8313dd20c04988ef28">HC_SR04_lib.h</a>
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.11
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
 </body>
 </html>
