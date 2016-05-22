@@ -157,7 +157,7 @@ public:
     Sensor        Arduino Uno
      TriggerPin   12
      EchoPin      11
-     VDD          Vcc 5v
+     VCC          Vcc 5v
      GND          Gnd
 
     Units System = Metrics (Centimeters)
