@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For HC_SR04 lib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+HC_SR04Dev	KEYWORD1	HC_SR04Dev
+HC_SR04_lib	KEYWORD1	HC_SR04_lib
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+Sync	KEYWORD2
+Read	KEYWORD2
+Status	KEYWORD2
+SetMinMax	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+HC_SR04_OFF	LITERAL1
+HC_SR04_TIMEOUT_READ	LITERAL1
+HC_SR04_READ_OK	LITERAL1
+HC_SR04_UNDER_MIN	LITERAL1
+HC_SR04_OVER_MAX	LITERAL1
+HC_SR04_READ_ERR	LITERAL1
+UNITS_ENGLISH	LITERAL1
+UNITS_METRIC	LITERAL1

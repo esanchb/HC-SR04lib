@@ -3,16 +3,17 @@
 *.lo
 *.o
 *.obj
-
+*.swp
+*.DS_Store
 # Precompiled Headers
 *.gch
 *.pch
-
+file.txt
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
+tags
 # Fortran module files
 *.mod
 
@@ -21,6 +22,11 @@
 *.la
 *.a
 *.lib
+
+Doxyfile
+Docs
+
+Release_lib.sh
 
 # Executables
 *.exe
